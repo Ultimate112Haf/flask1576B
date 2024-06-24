@@ -1,22 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
 body {
-    font-family: Arial,  sans-serif; /* keluarga font */
+    font-family: 'inter',  sans-serif; /* keluarga font */
     font-size: 11px; /* Ukuran font utama pada tag <p></p> */
     background-color: #f0f0f0; /* Warna latar belakang laman web */
     color: #333333; /* Warna teks */ 
 }
 h1 {
-    color: #00a800; /* Warna tajuk (header)*/
+    color: #ffffff; /* Warna tajuk (header)*/
     font-size: 24px; /* Ukuran font tajuk (header) */
-    font-family: Georgia, serif; /* Keluarga font yang digunakan di tajuk (header) */
-}
-
-h2 {
-    color: #13dd82; 
-    font-size: 18px; 
-    font-family: Georgia, serif; 
+    font-family: 'inter', serif; /* Keluarga font yang digunakan di tajuk (header) */
+    background-color: #FD98FB;
+    border: 15px solid #FD98FB;
 }
 
 p {
-    color: hsl(0, 100%, 51%); 
+    color: #5988FF; /* Warna tajuk (header)*/
+    font-size: 15px; /* Ukuran font tajuk (header) */
+    font-family: 'inter', serif; /* Keluarga font yang digunakan di tajuk (header) */
+    border: 15px solid #D6FF6B;
+  
 }
+
+h2 {
+    color: #fafafa; 
+    font-size: 18px; 
+    font-family: 'inter', serif;
+    background-color: #FD98FB;
+    border: 15px solid #FD98FB;
+}
+
+
+
+
+
+
 

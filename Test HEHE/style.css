@@ -1,0 +1,49 @@
+/* Import font Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif; /* Mengatur font ke Inter */
+    font-size: 11px; /* Ukuran font utama */
+    background-color: #f0f0f0; /* Warna latar belakang laman web */
+    color: #333333; /* Warna teks default */
+}
+
+head {
+    background-color: #640c0c; /* Warna latar belakang laman web */
+    
+}
+
+h1 {
+    color: #5988FF; /* Warna biru */
+    font-size: 24px; /* Ukuran font header */
+    font-family: 'Inter', serif; /* Mengatur font ke Inter */
+    border: 1px solid #5988FF; /* Border warna biru */
+}
+
+h2 {
+    color: #13dd82; /* Warna hijau */
+    font-size: 18px; /* Ukuran font header */
+    font-family: 'Inter', serif; /* Mengatur font ke Inter */
+    border: 2px solid #13dd82; /* Border warna hijau */
+}
+
+p {
+    color: #FD98FB; /* Warna merah muda */
+    text-decoration-color: #D6FF6B; /* Warna dekorasi teks hijau */
+    font-size: 14px; /* Mengatur ukuran font */
+}
+
+.background-blue {
+    background-color: #5988FF; /* Warna latar belakang biru */
+    color: #FFFFFF; /* Warna teks putih */
+}
+
+.background-pink {
+    background-color: #FD98FB; /* Warna latar belakang merah muda */
+    color: #FFFFFF; /* Warna teks putih */
+}
+
+.background-green {
+    background-color: #D6FF6B; /* Warna latar belakang hijau */
+    color: #333333; /* Warna teks default */
+}
