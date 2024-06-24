@@ -8,7 +8,6 @@ app = Flask(__name__)
 Fakta  =['kecanduan shopping menghabiskan uang', 'kecanduan game online menghabiskan waktu', 
          'kecanduan medsos percuma']
 
-#cpps lists too long to fit story.
 cpps = ['story1', 'story2', 'story3']
 
 
@@ -24,8 +23,6 @@ def home():
 def hello_world():
     return f"<p>random_fact</p><br><p>{random.choice(Fakta)}</p><a href='/'>Back to Home</a>"
 
-#here i want the system to choose one of the horror story to be written in cpps, with the text from a txt file, located in the same folder with name
-#story1, story2, story3 in txt file.
 
 @app.route('/creepypasta')
 def creepypasta():
