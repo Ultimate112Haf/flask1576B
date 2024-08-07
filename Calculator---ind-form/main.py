@@ -51,25 +51,11 @@ def form():
 def submit_form():
     # Mendeklarasikan variabel untuk pengumpulan data
     name = request.form['name']
-    email = request.form['email']
-    address = request.form['address']
-    date = request.form['date']
-
-    with open('submit.txt', 'a') as f:
-        f.write(f'nama: {name}\n')
-        f.write(f'email: {email}\n')
-        f.write(f'address: {address}\n')
-        f.write(f'date: {date}\n')
-        f.write(f'=========================\n')
 
     # Anda dapat menyimpan data Anda atau mengirimkannya melalui email
     return render_template('form_result.html', 
                            # Tempatkan variabel di sini
                            name=name,
-                           email=email,
-                           address=address,
-                           date=date,
-
                            )
 
 app.run(debug=True)
