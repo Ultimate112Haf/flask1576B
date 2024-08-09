@@ -1,4 +1,4 @@
-#Импорт
+#Импорт00
 from flask import Flask, render_template,request, redirect
 
 
