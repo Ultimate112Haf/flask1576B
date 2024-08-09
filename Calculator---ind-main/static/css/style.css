@@ -90,6 +90,7 @@ main {
 
 .main__title--margin {
     margin-bottom: 50px;
+<<<<<<< HEAD
 }
 
 .main__link {
@@ -208,3 +209,6 @@ r1 { /*unused*/
   .result-container p strong {
     color: #000;
   }
+=======
+}
+>>>>>>> 2359430e781ac0986f3f3ec112f916b2ae31736b

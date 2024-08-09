@@ -1,5 +1,9 @@
 # Impor
+<<<<<<< HEAD
 from flask import Flask, render_template, request
+=======
+from flask import Flask, render_template
+>>>>>>> 2359430e781ac0986f3f3ec112f916b2ae31736b
 
 
 app = Flask(__name__)
@@ -15,6 +19,10 @@ def result_calculate(size, lights, device):
 @app.route('/')
 def index():
     return render_template('index.html')
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2359430e781ac0986f3f3ec112f916b2ae31736b
 # Halaman kedua
 @app.route('/<size>')
 def lights(size):
@@ -27,7 +35,11 @@ def lights(size):
 @app.route('/<size>/<lights>')
 def electronics(size, lights):
     return render_template(
+<<<<<<< HEAD
                             'electronics.html',                           
+=======
+                            'electronics.html',
+>>>>>>> 2359430e781ac0986f3f3ec112f916b2ae31736b
                             size = size, 
                             lights = lights                           
                            )
@@ -41,6 +53,7 @@ def end(size, lights, device):
                                                     int(device)
                                                     )
                         )
+<<<<<<< HEAD
 # Formulir
 @app.route('/form')
 def form():
@@ -72,4 +85,6 @@ def submit_form():
 
                            )
 
+=======
+>>>>>>> 2359430e781ac0986f3f3ec112f916b2ae31736b
 app.run(debug=True)
