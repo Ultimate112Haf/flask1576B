@@ -14,7 +14,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  letter-spacing: 0.2em;
+  letter-spacing: 0.15em;
   background: linear-gradient(180deg, #F1FCFF 0%, #afd8f2 100%);
   color: #223165;
 }
